@@ -18,14 +18,14 @@ API Rest usando Django
 - estado
 - numero.
 
-##Rotas: 
+## Rotas: 
 
 - api/cliente com funcionalidades GET, POST
 - api/cliente/<ph-cliente> com funcionalidades GET, PUT, PATCH, DELETE
 - api/cliente/<pk-cliente>/endereco/ com funcionalidades GET, POST
 - api/cliente/<pk-cliente>/endereco/<pk-endereco> com funcionalidades GET, PUT, PATCH, DELETE (ações caso pertença ao id)
 
-##observações:
+## Observações:
 
 - DELETE remove logicamente 
 - Não utilizar routers
